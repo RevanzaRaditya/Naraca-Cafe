@@ -1,0 +1,171 @@
+[
+    {
+        "nama": "Chicken Nanban",
+        "harga": 28000,
+        "kategori": "Main Course",
+        "gambar": "asset/menu/chicken-nanban.jpg"
+    },
+    {
+        "nama": "Nasi Goreng Naraca",
+        "harga": 26000,
+        "kategori": "Main Course",
+        "gambar": "asset/menu/nasi-goreng-naraca.jpg"
+    },
+    {
+        "nama": "Dry Ramen",
+        "harga": 30000, 
+        "kategori": "Main Course",
+        "gambar": "asset/menu/dry-ramen.jpg"
+    },
+    {
+        "nama": "Chicken Sambat",
+        "harga": 26000,
+        "kategori": "Main Course",
+        "gambar": "asset/menu/chicken-sambat.jpg"
+    },
+    {
+        "nama": "Salad Wrap",
+        "harga": 27000,
+        "kategori": "Main Course",
+        "gambar": "asset/menu/salad-wrap.png"
+    },
+    {
+        "nama": "Pisang Goreng",
+        "harga": 26000,
+        "kategori": "Snack",
+        "gambar": "asset/menu/pisang-goreng.png"
+    },
+    {
+        "nama": "Cireng Rujak",
+        "harga": 15000,
+        "kategori": "Snack",
+        "gambar": "asset/menu/cireng-rujak.png"
+    },
+    {
+        "nama": "Gyoza",
+        "harga": 20000,
+        "kategori": "Snack",
+        "gambar": "asset/menu/gyoza.png"
+    },
+    {
+        "nama": "French Fries",
+        "harga": 15000,
+        "kategori": "Snack",
+        "gambar": "asset/menu/french-fries.png"
+    },
+    {
+        "nama": "Pisang Bakar",
+        "harga": 20000,
+        "kategori": "Snack",
+        "gambar": "asset/menu/pisang-bakar.png"
+    },
+    {
+        "nama": "Hakau",
+        "harga": 18000,
+        "kategori": "Dimsum",
+        "gambar": "asset/menu/hakau.png"
+    },
+    {
+        "nama": "Siomay Dimsum",
+        "harga": 18000,
+        "kategori": "Dimsum",
+        "gambar": "asset/menu/siomay-dimsum.png"
+    },
+    {
+        "nama": "Bakpao",
+        "harga": 18000,
+        "kategori": "Dimsum",
+        "gambar": "asset/menu/bakpao.png"
+    },
+    {
+        "nama": "Ceker",
+        "harga": 18000,
+        "kategori": "Dimsum",
+        "gambar": "asset/menu/ceker.png"
+    },
+    {
+        "nama": "Tea",
+        "harga": 13000,
+        "kategori": "Non Coffee",
+        "gambar": "asset/menu/tea.png"
+    },
+    {
+        "nama": "Lemon Tea",
+        "harga": 15000,
+        "kategori": "Non Coffee",
+        "gambar": "asset/menu/lemon-tea.png"
+    },
+    {
+        "nama": "LondonFog",
+        "harga": 18000,
+        "kategori": "Non Coffee",
+        "gambar": "asset/menu/londonfog.jpg"
+    },
+    {
+        "nama": "Chocolate",
+        "harga": 18000,
+        "kategori": "Non Coffee",
+        "gambar": "asset/menu/chocolate.png"
+    },
+    {
+        "nama": "Matcha Latte",
+        "harga": 13000,
+        "kategori": "Non Coffee",
+        "gambar": "asset/menu/matcha-latte.png"
+    },
+    {
+        "nama": "Lychee Tea",
+        "harga": 15000,
+        "kategori": "Non Coffee",
+        "gambar": "asset/menu/lychee-tea.png"
+    },
+    {
+        "nama": "Avocado",
+        "harga": 18000,
+        "kategori": "Non Coffee",
+        "gambar": "asset/menu/avocado.png"
+    },
+    {
+        "nama": "Kopi Susu Vanila",
+        "harga": 21000,
+        "kategori": "Coffee",
+        "gambar": "asset/menu/kopi-susu-vanila.png"
+    },
+    {
+        "nama": "Kopi Susu Pandan",
+        "harga": 18000,
+        "kategori": "Coffee",
+        "gambar": "asset/menu/kopi-susu-pandan.png"
+    },
+    {
+        "nama": "Kopi Susu Naraca",
+        "harga": 18000,
+        "kategori": "Coffee",
+        "gambar": "asset/menu/kopi-susu-naraca.png"
+    },
+    {
+        "nama": "Latte",
+        "harga": 22000,
+        "kategori": "Coffee",
+        "gambar": "asset/menu/latte.png"
+    },
+    {
+        "nama": "Picollo",
+        "harga": 21000,
+        "kategori": "Coffee",
+        "gambar": "asset/menu/picollo.png"
+    },
+    {
+        "nama": "Cappucino",
+        "harga": 22000,
+        "kategori": "Coffee",
+        "gambar": "asset/menu/cappucino.png"
+    },
+    {
+        "nama": "Espresso",
+        "harga": 12000,
+        "kategori": "Coffee",
+        "gambar": "asset/menu/espresso.png"
+    }            
+    
+]

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kavivanar&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-thin-straight/css/uicons-thin-straight.css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/asset/icon.png" type="image/png">
+    <script src="script.js" defer></script>
+    <title>Naraca</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-menu">
+            
+            <a href="#about">About</a>
+            <a href="#menus">Menu</a>
+        </div>
+        <div class="navbar-logo">
+          <a href="#home"><img src="asset/logo.png" alt="Logo"></a>
+        </div>
+        <div class="navbar-menu">
+            <a href="#ourteam">Our Team</a>
+          <a href="#local">Location</a>
+        </div>
+    </nav>
+    <div class="Home" id="home">
+        <h1>Naraca Cafe</h1>
+        <section>
+            <a href="#about">About</a>
+            <a href="#menus">Menu</a>
+            <a href="#ourteam">Our Team</a>
+            <a href="#local">Location</a>
+        </section>
+    </div>
+    <div class="About" id="about">
+        <div class="desk">
+            <h2>Who are we?</h2>
+            <p>Cafe atau restoran yang bernuansa <br> Jepang dan terletak di Ruko Regia Bintaro</p>
+        </div>
+        <div class="container">
+            <div class="slider-wrapper">
+                <button id="prev-slide" class="slider-button"><i class="fi fi-ts-arrow-circle-left"></i></button>
+                <button id="next-slide" class="slider-button"><i class="fi fi-ts-arrow-circle-right"></i></button>
+                <div class="image-list">
+                    <img src="asset/about/resto-1.jpg" alt="resto-1" class="image-item">
+                    <img src="asset/about/resto-2.jpg" alt="resto-2" class="image-item">
+                    <img src="asset/about/resto-3.jpg" alt="resto-3" class="image-item">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu" id="menus">
+        <h3>Our Menu</h3>
+        <div class="menu-button">
+            <button id="main-course">Main Course</button>
+            <button id="snack">Snack</button>
+            <button id="dimsum">Dimsum</button>
+            <button id="non-coffee">Non Coffee</button>
+            <button id="coffee">Coffee</button>
+        </div>
+        <div class="list-arrow">
+            <button id="prev-slide" class="slider-button"><i class="fi fi-ts-arrow-circle-left"></i></button>
+            <div id="menu" class="container-menu"></div>
+            <button id="next-slide" class="slider-button"><i class="fi fi-ts-arrow-circle-right"></i></button>
+        </div>
+    </div>
+    <div class="ourteam" id="ourteam">
+        <div>
+            <h3>Our Team</h3>
+        </div>
+        <div class="container-team">
+            <div>
+                <img src="/asset/team/difa-chef.png" alt="difa">
+                <h4>Chef</h4>
+                <p>Difa</p>
+            </div>
+            <div>
+                <img src="/asset/team/darryl-businessOwner.png" alt="darryl">
+                <h4>Business Owner</h4>
+                <p>Darryl</p>
+            </div>
+            <div>
+                <img src="/asset/team/dirman-chef.png" alt="dirman">
+                <h4>Chef</h4>
+                <p>Dirman</p>
+            </div>
+            <div>
+                <img src="/asset/team/cicil-barista.png" alt="cicil">
+                <h4>Barista</h4>
+                <p>Cicil</p>
+            </div>
+        </div>
+    </div>
+    <div class="location" id="local">
+        <div>
+            <h3>Our Location</h3>
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="670px" height="400px" id="gmap_canvas" src="https://maps.google.com/maps?q=naraca bintaro&t=&z=18&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><style>.mapouter{height:100%;width:100%;margin-top:24px; ;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;}</style></div></div>
+        </div>
+        <div style="width:500px;">
+            <div class="contact-container">
+                <div id="infor">
+                    <svg id="iloc" xmlns="http://www.w3.org/2000/svg" width="132px" height="57px" viewBox="0 0 57 57" fill="none">
+                        <path d="M49.875 23.75C49.875 40.375 28.5 54.625 28.5 54.625C28.5 54.625 7.125 40.375 7.125 23.75C7.125 18.081 9.377 12.6442 13.3856 8.63559C17.3942 4.627 22.831 2.375 28.5 2.375C34.169 2.375 39.6058 4.627 43.6144 8.63559C47.623 12.6442 49.875 18.081 49.875 23.75Z" stroke="#36392D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M28.5 30.875C32.435 30.875 35.625 27.685 35.625 23.75C35.625 19.815 32.435 16.625 28.5 16.625C24.565 16.625 21.375 19.815 21.375 23.75C21.375 27.685 24.565 30.875 28.5 30.875Z" stroke="#36392D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    <div class="contact">
+                        <h4>ADDRESS</h4>
+                        <p>Blk. RB-2, Jl. Graha Raya Bintaro, Pd. Kacang Bar., Kec. Pd. Aren, Kota Tangerang Selatan, Banten</p>
+                    </div>
+                </div>
+                <div id="infor">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="57px" height="57px" viewBox="0 0 57 57" fill="none">
+                        <path d="M52.25 40.185V47.31C52.2527 47.9714 52.1172 48.6261 51.8522 49.2322C51.5872 49.8382 51.1986 50.3823 50.7112 50.8294C50.2238 51.2766 49.6484 51.617 49.0218 51.8289C48.3952 52.0408 47.7313 52.1195 47.0725 52.06C39.7642 51.2659 32.7441 48.7686 26.5762 44.7687C20.8378 41.1223 15.9727 36.2571 12.3262 30.5187C8.31245 24.3228 5.81458 17.2686 5.035 9.92749C4.97565 9.27072 5.0537 8.60879 5.26419 7.98384C5.47467 7.3589 5.81298 6.78462 6.25757 6.29759C6.70216 5.81055 7.24329 5.42142 7.8465 5.15498C8.44972 4.88853 9.10181 4.75061 9.76125 4.74999H16.8863C18.0389 4.73864 19.1563 5.1468 20.0302 5.89838C20.9041 6.64995 21.4749 7.69367 21.6362 8.83499C21.937 11.1151 22.4947 13.354 23.2988 15.5087C23.6183 16.3588 23.6874 17.2827 23.498 18.1708C23.3086 19.059 22.8685 19.8742 22.23 20.52L19.2138 23.5362C22.5947 29.4822 27.5178 34.4053 33.4638 37.7862L36.48 34.77C37.1257 34.1314 37.941 33.6914 38.8292 33.502C39.7173 33.3125 40.6412 33.3817 41.4912 33.7012C43.646 34.5053 45.8848 35.063 48.165 35.3637C49.3187 35.5265 50.3723 36.1076 51.1255 36.9965C51.8787 37.8855 52.2789 39.0202 52.25 40.185Z" stroke="#36392D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    <div class="contact">
+                        <h4>CONTACT INFORMATION</h4>
+                        <p>0858-1943-3661</p>
+                    </div>
+                </div>
+                <div id="infor">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="57px" height="57px" viewBox="0 0 57 57" fill="none">
+                        <path d="M28.5 52.25C41.6168 52.25 52.25 41.6168 52.25 28.5C52.25 15.3832 41.6168 4.75 28.5 4.75C15.3832 4.75 4.75 15.3832 4.75 28.5C4.75 41.6168 15.3832 52.25 28.5 52.25Z" stroke="#36392D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M28.5 14.25V28.5L38 33.25" stroke="#36392D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    <div class="contact">
+                        <h4>TIME WORK</h4>
+                        <p>Sun - Fri <br>11.00 - 18.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+         <span>
+            <img src="/asset/logo.png" alt="logo-naraca">
+         </span>
+         <div class="media">
+            <a href="https://www.instagram.com/naracabintaro.id?igsh=MTNnaWo2ODY1N3N1cA=="><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                <path d="M11.375 2.9165H23.625C28.2917 2.9165 32.0833 6.70817 32.0833 11.3748V23.6248C32.0833 25.8681 31.1922 28.0195 29.6059 29.6058C28.0197 31.192 25.8683 32.0832 23.625 32.0832H11.375C6.70834 32.0832 2.91667 28.2915 2.91667 23.6248V11.3748C2.91667 9.13155 3.80782 6.98014 5.39406 5.39389C6.98031 3.80765 9.13172 2.9165 11.375 2.9165ZM11.0833 5.83317C9.69095 5.83317 8.35559 6.38629 7.37103 7.37086C6.38646 8.35543 5.83334 9.69078 5.83334 11.0832V23.9165C5.83334 26.8186 8.18125 29.1665 11.0833 29.1665H23.9167C25.3091 29.1665 26.6444 28.6134 27.629 27.6288C28.6135 26.6442 29.1667 25.3089 29.1667 23.9165V11.0832C29.1667 8.18109 26.8188 5.83317 23.9167 5.83317H11.0833ZM25.1563 8.02067C25.6397 8.02067 26.1034 8.21273 26.4453 8.55459C26.7871 8.89645 26.9792 9.36012 26.9792 9.84359C26.9792 10.3271 26.7871 10.7907 26.4453 11.1326C26.1034 11.4744 25.6397 11.6665 25.1563 11.6665C24.6728 11.6665 24.2091 11.4744 23.8673 11.1326C23.5254 10.7907 23.3333 10.3271 23.3333 9.84359C23.3333 9.36012 23.5254 8.89645 23.8673 8.55459C24.2091 8.21273 24.6728 8.02067 25.1563 8.02067ZM17.5 10.2082C19.4339 10.2082 21.2885 10.9764 22.656 12.3439C24.0234 13.7113 24.7917 15.566 24.7917 17.4998C24.7917 19.4337 24.0234 21.2884 22.656 22.6558C21.2885 24.0233 19.4339 24.7915 17.5 24.7915C15.5661 24.7915 13.7115 24.0233 12.344 22.6558C10.9766 21.2884 10.2083 19.4337 10.2083 17.4998C10.2083 15.566 10.9766 13.7113 12.344 12.3439C13.7115 10.9764 15.5661 10.2082 17.5 10.2082ZM17.5 13.1248C16.3397 13.1248 15.2269 13.5858 14.4064 14.4062C13.5859 15.2267 13.125 16.3395 13.125 17.4998C13.125 18.6602 13.5859 19.773 14.4064 20.5934C15.2269 21.4139 16.3397 21.8748 17.5 21.8748C18.6603 21.8748 19.7731 21.4139 20.5936 20.5934C21.4141 19.773 21.875 18.6602 21.875 17.4998C21.875 16.3395 21.4141 15.2267 20.5936 14.4062C19.7731 13.5858 18.6603 13.1248 17.5 13.1248Z" fill="#36392D"/>
+              </svg></a>
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                <path d="M32.0833 17.4998C32.0833 9.44984 25.55 2.9165 17.5 2.9165C9.45 2.9165 2.91667 9.44984 2.91667 17.4998C2.91667 24.5582 7.93334 30.4353 14.5833 31.7915V21.8748H11.6667V17.4998H14.5833V13.854C14.5833 11.0394 16.8729 8.74984 19.6875 8.74984H23.3333V13.1248H20.4167C19.6146 13.1248 18.9583 13.7811 18.9583 14.5832V17.4998H23.3333V21.8748H18.9583V32.0103C26.3229 31.2811 32.0833 25.0686 32.0833 17.4998Z" fill="#36392D"/>
+              </svg></a>
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <path d="M25.2013 1.53711H30.108L19.388 13.7904L32 30.4611H22.1253L14.392 20.3491L5.54133 30.4611H0.632L12.0987 17.3544L0 1.53844H10.1253L17.116 10.7811L25.2013 1.53711ZM23.48 27.5251H26.1987L8.648 4.31978H5.73067L23.48 27.5251Z" fill="#36392D"/>
+              </svg></a>
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                <path d="M24.2083 8.4875C23.2115 7.34945 22.6621 5.88792 22.6625 4.375H18.1562V22.4583C18.1215 23.4369 17.7084 24.3638 17.0038 25.0439C16.2993 25.7239 15.3584 26.104 14.3792 26.1042C12.3083 26.1042 10.5875 24.4125 10.5875 22.3125C10.5875 19.8042 13.0083 17.9229 15.5021 18.6958V14.0875C10.4708 13.4167 6.06667 17.325 6.06667 22.3125C6.06667 27.1688 10.0917 30.625 14.3646 30.625C18.9438 30.625 22.6625 26.9063 22.6625 22.3125V13.1396C24.4898 14.4519 26.6837 15.1559 28.9333 15.1521V10.6458C28.9333 10.6458 26.1917 10.7771 24.2083 8.4875Z" fill="#36392D"/>
+                </svg></a>
+         </div>
+    </footer>
+</body>
+
+</html>
