@@ -421,6 +421,7 @@ body{
 
     .Home{
       flex-direction: row;
+      justify-content: space-around;
       gap: 40px;
       height: auto;
     }
