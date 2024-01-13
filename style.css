@@ -70,7 +70,7 @@ body{
     display: flex;
     justify-content:center;
     background: url(./asset/bg.png) ;
-    filter: contrast(50%);
+    filter:invert(10%);
     background-size: cover;
     background-position-x: center;
     background-position-y: 55%;
@@ -80,7 +80,7 @@ body{
   .Home h1{
     margin-top: 79px;
     margin-right: 150px;
-    color: #B7BCA9;
+    color: #E7E9E2;
     font-family: Poppins;
     font-size: 128px;
     font-style: normal;
@@ -392,13 +392,6 @@ body{
   }
 
   @media only screen and (max-width: 768px) {
-    
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-        
-    }
-
     .About{
       height: auto;
     }
@@ -427,8 +420,8 @@ body{
     }
 
     .Home{
-      flex-direction: column;
-      align-items: center;
+      flex-direction: row;
+      gap: 40px;
       height: auto;
     }
 
